@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>MTTN - Hacktoberfest Meetup</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css" >
+    <!-- Icon -->
+    <link rel="stylesheet" type="text/css" href="assets/fonts/line-icons.css">
+    <!-- Nivo Lightbox -->
+    <link rel="stylesheet" type="text/css" href="assets/css/nivo-lightbox.css" >
+    <!-- Animate -->
+    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- Main Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+    <!-- Responsive Style -->
+    <link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+  </head>
+  <body>
+
+    <!-- Header Area wrapper Starts -->
+    <header id="header-wrap">
+      <!-- Navbar Start -->
+      <nav class="navbar navbar-expand-lg bg-inverse fixed-top scrolling-navbar">
+      </nav>
+      <!-- Navbar End -->
+
+      <!-- Hero Area Start -->
+      <div id="hero-area" class="hero-area-bg">
+        <div class="overlay"></div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 col-sm-12">
+              <div class="contents text-center">
+                <div class="icon">
+                  <a href="https://manipalthetalk.org" class="navbar-brand" target="_blank"><img src="assets/img/mttnxhf.png" alt=""></a>  
+                </div>
+                <p class="banner-info">04, Oct 2020</p>
+                <h2 class="head-title">Hacktoberfest Manipal</h2>
+                <p class="banner-desc">a community meetup for the month-long celebration of open-source software</p>
+
+                <a href="https://organize.mlh.io/participants/events/4862-hacktoberfest-manipal" class="btn btn-common" target="_blank">Register Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Hero Area End -->
+
+    </header>
+    <!-- Header Area wrapper End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="section-padding">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="img-thumb">
+              <img class="img-fluid" src="assets/img/about/img.jpg" alt="">
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-12 col-xs-12">
+            <div class="about-content">
+              <div>
+                <div class="about-text">  
+                  <h2>Hacktoberfest 2020</h2>
+                  <p>Hacktoberfest is a month-long contest beginning October 1, run by DigitalOcean, DEV, and Intel. Whether you’re new to development or a long-time contributor, anyone can participate and help grow the open source community.
+                    <br><br>
+                    <strong>THE CHALLENGE</strong>
+                    <br>
+                     Submit 4 pull requests to an open source project in the month of October and win limited-edition swag.</p>
+                </div>
+                <a href="https://hacktoberfest.digitalocean.com/details" class="btn btn-common">Learn More</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+
+    <!-- Attendees Section Start -->
+    <section id="team" class="section-padding text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title-header text-center">
+              <h2 class="wow fadeInUp" data-wow-delay="0.2s">Attendees</h2>
+              <p class="wow fadeInUp" data-wow-delay="0.4s">Here are the amazing bunch of folks who took part in the<br>Hacktoberfest Manipal Meetup.</p>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-bt">
+            {% for attendee in site.data.attendees %}
+            <div class="col-lg-3 col-md-6 col-xs-12">
+                <div class="team-item wow fadeInUp" data-wow-delay="0.4s">
+                  <div class="team-img">
+                    <img class="img-fluid" src="assets/img/attendees/{{ attendee.image }}" alt="">
+                    <div class="team-overlay">
+                      <div class="overlay-social-icon text-center">
+                        <ul class="social-icons">
+                            {%- if attendee.twitter -%}
+                             <li><a href="https://twitter.com/{{ attendee.twitter }}" target="_blank"><i class="lni-twitter-filled" aria-hidden="true"></i></a></li>
+                            {%- endif -%}
+                            {%- if attendee.github -%}
+                             <li><a href="https://github.com/{{ attendee.github }}" target="_blank"><i class="lni-github-original" aria-hidden="true"></i></a></li>
+                            {%- endif -%}
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="info-text">
+                    <h3><a href="{{ attendee.website }}" target="_blank">{{ attendee.name }}</a></h3>
+                    <p>{{ attendee.title }}</p>
+                  </div>
+                </div>
+              </div>
+          {% endfor %}
+        </div>
+      </div>
+    </section>
+    <!-- Attendees Section End -->
+
+    <footer>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8 col-md-12 col-xs-12">
+            <div class="footer-logo">
+              <img src="assets/img/logo-big.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div id="preloader">
+      <div class="sk-circle">
+        <div class="sk-circle1 sk-child"></div>
+        <div class="sk-circle2 sk-child"></div>
+        <div class="sk-circle3 sk-child"></div>
+        <div class="sk-circle4 sk-child"></div>
+        <div class="sk-circle5 sk-child"></div>
+        <div class="sk-circle6 sk-child"></div>
+        <div class="sk-circle7 sk-child"></div>
+        <div class="sk-circle8 sk-child"></div>
+        <div class="sk-circle9 sk-child"></div>
+        <div class="sk-circle10 sk-child"></div>
+        <div class="sk-circle11 sk-child"></div>
+        <div class="sk-circle12 sk-child"></div>
+      </div>
+    </div>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="assets/js/jquery-min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.countdown.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/jquery.nav.js"></script>
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/nivo-lightbox.js"></script>
+    <script src="assets/js/video.js"></script>
+    <script src="assets/js/main.js"></script>      
+  </body>
+</html>
