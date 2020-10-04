@@ -23,17 +23,38 @@
   image: kartik.jpg
   github: kayyyypee
 
+- name: Tushar Tapadia
+  title: iOS Developer
+  image: tushart.jpg
+  github: TusharTapadia
+  twitter: TusharTapadia
+  website: https://github.com/TusharTapadia
+
+- name: Tushar Machavolu
+  title: Programming Enthusiast
+  image: machavolu.jpg
+  github: fuzzy-memory
+  twitter: _fuzzymemory
+
+- name: Divyashree
+  title: Student
+  image: divya.jpeg
+  github: divyashreedivya
+  website: https://divyashreedivya.github.io/
+
+- name: Prakhar Bhatnagar
+  title: Developer
+  image: prakhar.jpg
+  github: prakharb10
+  twitter: Prakhar_b10
+  website: https://prakharb10.com
+
 - name: Naman Jain
   title: iOS Developer
   image: naman.jpg
   github: nmnjn
   twitter: nxmxnjxxn
   website: https://nmnjn.me
-
-- name: Harshit Yaduka
-  title: Web Developer
-  image: harshit.jpg
-  github: harshit3199
 
 - name: Santhoshivan
   title: Application Developer
@@ -46,3 +67,9 @@
   title: Android Developer | Graphic Designer
   image: hardik.jpg
   github: hardikb19
+
+- name: Harshit Yaduka
+  title: Web Developer
+  image: harshit.jpg
+  github: harshit3199
+
