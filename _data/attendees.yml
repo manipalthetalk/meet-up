@@ -55,6 +55,12 @@
   github: nmnjn
   twitter: nxmxnjxxn
   website: https://nmnjn.me
+  
+- name: Hans Holani
+  title: Aspiring Developer
+  image: hans.jpg
+  github: hansholani
+  twitter: hahahahahahans
 
 - name: Santhoshivan
   title: Application Developer
@@ -73,3 +79,13 @@
   image: harshit.jpg
   github: harshit3199
 
+- name: Chhavi Singal
+  title: Graphic Designer
+  image: chhavi.jpg
+  github: Chhavi-S
+  
+- name: Vidhya Venkatesan
+  title: Web Developer
+  image: vidhya-venkatesan.jpeg
+  github: vidhyav656
+  website: https://vidhyav656.github.io/
