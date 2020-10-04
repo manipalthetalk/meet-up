@@ -1,11 +1,24 @@
-- name: Naman Jain
-  title: iOS Developer and Designer
-  image: naman.jpg
-  github: nmnjn
-  twitter: nxmxnjxxn
-  website: https://nmnjn.me
+- name: Lakshay Kalbhor
+  title: Backend Developer
+  image: lakshay.jpg
+  github: kalbhor
+  twitter: lakshaykalbhor
+  website: https://kalbhor.xyz
+  
+- name: Anurag Sharma
+  title: GSOC Scholar
+  image: anurag.jpg
+  github: anurag-ks
+  twitter: anurag_029
+  website: https://anurag-ks.github.io
   
 - name: Nitigya Kapoor
   title: Developer
   image: nitigya.jpg
   github: itsnitigya
+  website: https://nitigyakapoor.me
+
+- name: Kartik Patyal
+  title: Web Developer
+  image: kartik.jpg
+  github: kayyyypee
