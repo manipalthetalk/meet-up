@@ -4,14 +4,14 @@
   github: kalbhor
   twitter: lakshaykalbhor
   website: https://kalbhor.xyz
-  
+
 - name: Anurag Sharma
   title: GSOC Scholar
   image: anurag.jpg
   github: anurag-ks
   twitter: anurag_029
   website: https://anurag-ks.github.io
-  
+
 - name: Nitigya Kapoor
   title: Developer
   image: nitigya.jpg
@@ -55,7 +55,7 @@
   github: nmnjn
   twitter: nxmxnjxxn
   website: https://nmnjn.me
-  
+
 - name: Hans Holani
   title: Aspiring Developer
   image: hans.jpeg
@@ -68,7 +68,7 @@
   github: santhoshivan23
   twitter: santhoshivan23
   website: https://github.com/santhoshivan23
-  
+
 - name: Hardik Bharunt
   title: Android Developer | Graphic Designer
   image: hardik.jpg
@@ -83,10 +83,15 @@
   title: Graphic Designer
   image: chhavi.jpg
   github: Chhavi-S
-  
+
 - name: Vidhya Venkatesan
   title: Web Developer
   image: vidhya-venkatesan.jpeg
   github: vidhyav656
   twitter: vidhyav656
   website: https://vidhyav656.github.io/
+
+- name: Sarthak Jain
+  title: Aspiring Python Developer
+  image: sarthak_jain.jpg
+  github: thesarthakjain
