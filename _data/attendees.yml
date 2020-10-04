@@ -29,3 +29,28 @@
   github: TusharTapadia
   twitter: TusharTapadia
   website: https://github.com/TusharTapadia
+
+- name: Divyashree
+  title: Student
+  image: divya.jpeg
+  github: divyashreedivya
+  website: https://divyashreedivya.github.io/
+
+- name: Prakhar Bhatnagar
+  title: Developer
+  image: nitigya.jpg
+  github: prakharb10
+  twitter: Prakhar_b10
+  website: https://prakharb10.com
+
+- name: Naman Jain
+  title: iOS Developer
+  image: naman.jpg
+  github: nmnjn
+  twitter: nxmxnjxxn
+  website: https://nmnjn.me
+  
+- name: Hardik Bharunt
+  title: Android Developer | Graphic Designer
+  image: hardik.jpg
+  github: hardikb19
