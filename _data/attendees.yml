@@ -23,6 +23,12 @@
   image: kartik.jpg
   github: kayyyypee
 
+- name: Divyashree
+  title: Student
+  image: divya.jpeg
+  github: divyashreedivya
+  website: https://divyashreedivya.github.io/
+
 - name: Prakhar Bhatnagar
   title: Developer
   image: nitigya.jpg
@@ -41,4 +47,3 @@
   title: Android Developer | Graphic Designer
   image: hardik.jpg
   github: hardikb19
-
