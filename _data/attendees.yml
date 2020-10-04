@@ -23,6 +23,13 @@
   image: kartik.jpg
   github: kayyyypee
 
+- name: Prakhar Bhatnagar
+  title: Developer
+  image: nitigya.jpg
+  github: prakharb10
+  twitter: Prakhar_b10
+  website: https://prakharb10.com
+
 - name: Naman Jain
   title: iOS Developer
   image: naman.jpg
@@ -34,3 +41,4 @@
   title: Android Developer | Graphic Designer
   image: hardik.jpg
   github: hardikb19
+
