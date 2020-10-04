@@ -23,6 +23,12 @@
   image: kartik.jpg
   github: kayyyypee
 
+- name: Tushar Machavolu
+  title: Programming Enthusiast
+  image: machavolu.jpg
+  github: fuzzy-memory
+  twitter: _fuzzymemory
+
 - name: Divyashree
   title: Student
   image: divya.jpeg
@@ -47,3 +53,4 @@
   title: Android Developer | Graphic Designer
   image: hardik.jpg
   github: hardikb19
+
